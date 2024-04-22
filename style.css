@@ -295,4 +295,166 @@ body {
     position: absolute;
     width: 50px;
     height: 40px;
+    background-color: #08bdbd;
+    top: 140px;
+    left: -65px;
+    box-shadow: -8px 0 0 rgba(0, 0, 0, 0.07);
+}
+
+.gift2:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 15px;
+    left: -5px;
+    background-color: #08bdbd;
+    box-shadow: inset -8px -4px 0 rgba(0, 0, 0, 0.07);
+}
+
+.gift2:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    background-color: #abff4f;
+    height: 40px;
+    left: 15px;
+}
+
+.gift3 {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    background-color: #7678ed;
+    top: 150px;
+    left: -85px;
+    box-shadow: inset -8px 0 0 rgba(0, 0, 0, 0.07);
+}
+
+.gift3:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    background-color: #7678ed;
+    left: -5px;
+    box-shadow: inset -8px -4px 0 rgba(0, 0, 0, 0.07);
+}
+
+.gift3:after {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 30px;
+    left: 15px;
+    background-color: #f7b801;
+}
+
+.ribbon2 {
+    position: absolute;
+    width: 15px;
+    height: 7px;
+    border: 3px solid #abff4f;
+    border-radius: 50%;
+    transform: skew(15deg, 15deg);
+    top: 129px;
+    left: -60px;
+}
+
+.ribbon2:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 7px;
+    border: 3px solid #abff4f;
+    transform: skew(-15deg, -20deg);
+    left: 15px;
+    top: -8px;
+    border-radius: 50%;
+}
+
+.ribbon3 {
+    position: absolute;
+    width: 12px;
+    height: 5px;
+    border: 3px solid #f7b801;
+    border-radius: 50%;
+    transform: skew(15deg, 15deg);
+    top: 142px;
+    left: -85px;
+}
+
+.ribbon3:before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 5px;
+    border: 3px solid #f7b801;
+    transform: skew(-15deg, -20deg);
+    left: 15px;
+    top: -8px;
+    border-radius: 50%;
+}
+
+.balls {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #db3a34;
+    top: 15px;
+    left: -15px;
+}
+
+.balls:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffc857;
+    top: 35px;
+    left: -15px;
+}
+
+.balls:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f07167;
+    top: 20px;
+    left: 45px;
+}
+
+.ball1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: -90px;
+    left: 20px;
+    background-color: #fae588;
+}
+
+.ball1:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fae588;
+    top: 170px;
+    left: 50px
+}
+
+.light1, .light2, .light3, .light4, .light5, .light6, .light7, .light8, .light9, .light10 {
+    -webkit-animation: flash 5s infinite;
+} 
+
+@-webkit-keyframes flask {
+    20%, 24%, 55% {box-shadow: none;}
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        box-shadow: 0 0 5px #f5de93, 0 0 15px #f5de93, 0 0 20px #f5de93, 0 0 40px #f5de93, 0 0 60px #decea4, 0 0 10px #d6c0a5, 0 98px #ff0000;
+    }
 }
